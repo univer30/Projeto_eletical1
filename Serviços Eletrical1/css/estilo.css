@@ -15,20 +15,12 @@ body {
     .menu-principal {
         width: 100%;
         background-color: #252323;
-        height: 60px;
+        height: 80px;
         }
         .logo {
             float: left;
-            padding: 16px;
-            width: 70%;
+            width: 50%;
            }
-
-           .logo:hover{
-            margin-top: 10px!important;
-            position: relative!important;
-
-           }
-
            .btn-secondary {
             color: #fff; 
             background-color: #6c757d; 
@@ -102,7 +94,7 @@ body {
           }
           
            .redes-sociais ul li {
-           margin-left: 25px;
+           margin-left: 8px;
            display: inline-block;
            float: left;
            list-style: none;
