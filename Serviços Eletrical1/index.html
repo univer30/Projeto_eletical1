@@ -1,262 +1,218 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
   <meta charset="UTF-8">
-    <!-- css -->
-  <link rel="stylesheet" href="css/estilo.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <!-- js do jquery e bootstrap-->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
- 
-  <title>Página principal</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/estilo.css">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <title>Eletrical Servicos</title>
 </head>
-<body>
+<body style="background-color: #DCDCDC;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="" href="#"><img class="logo" src="img/logo.png" height="70"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
-<div class="menu-principal">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nossahistoria.html">Nossa história</a>
+        </li>
+        <p class="text-light" style="margin-left: 160px;;">Fale conosco: (14) 98809-1366</p>
 
-<main>
-  <div class="header-1">
-    <div class="logo">
-      <a href="index.html"> <img src="./img/logo.png" height="80"/></a>
+        <ul class="navbar-nav mr-auto" style="margin-left:200px;">
+
+          <a href="https://www.facebook.com"><img class="face" src="img/face.png"height="20"></a>
+          <a href="https://www.instagram.com/eletricalservicos1"><img class="inst"img src="img/inst.png"height="20"></a>
+          <a href="https://twitter.com/login?lang=pt"><img  class="face" src="img/twiter2.png"height="25"></a>
+        </ul>
+      </ul>
     </div>
-    <p class="logo1">Ligue já: (14) 98809-1366</p>
-    <div class="redes-sociais">
-     
-        <ul>
-            <li>
-                <a href="https://pt-br.facebook.com/">
-                    <img src="./img/face.png" height="30" />
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/login?lang=pt">
-                    <img src="./img/twiter.png" height="50" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/?hl=pt-br">
-                    <img src="./img/inst.png" height="30" />
-                </a>
-              </li>
-          </ul>  
+  </nav>
+  <br>
+<div class="container">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/img4.jpeg" class="d-block w-100" alt="...">
     </div>
-</div>
-</main>
-</div>
-
-<br>
-<main class="col-100 menu-urls">
-  <div class="header-2">
-      <div class="menu">
-          <ul>
-              <li>
-                  <a href="">Home</a>
-              </li>
-              <li>
-                  <a href="nossahistoria.html">Nossa história</a>
-              </li>
-              <li>
-                  <a href="galeria_fotos.html">Galeria de fotos</a>
-              </li>
-              <li>
-                  <a href="contato.html">Contato</a>
-              </li>
-          </ul>
-      </div>
-      
-      <div class="busca">
-        <input placeholder="Buscar no saite" type="text" />
+    <div class="carousel-item">
+      <img src="img/img7.jpg" class="d-block w-100" alt="...">
     </div>
-</div>
-      </main>
-
-      <div class="col-100 cor">
-        <div class="container" style=" text-align: center; ">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/img4.jpeg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-               
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/img7.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-              
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/img6.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-               
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-        </div>
-      </div>
+    <div class="carousel-item">
+      <img src="img/img6.jpg" class="d-block w-100" alt="...">
     </div>
-
-    <div class="col-100 cor">
-      <div class="content texto-destaque">
-          <h1> <strong>Prestadora de serviços</strong></h1>
-          <p>Contamos com uma equipe de profissionais qualificados que atuam em varias áreas.   Faça parte desta equipe ou se voce for cliente, poderá contar com uma grande equipe.
-            Faça parte desta equipe.  </p>
-            <br>
-             <h1>Faça já seu orçamento!</h1>
-<h3>Meus videos</h3>
-<div class="videos">
-              <div class="col-3 bloco-texto">
-                <video width="320" height="240" controls="controls">
-                  <source src="video/video1.mp4" type="video/mp4">
-                  <object data="" width="320" height="240">
-                  <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
-                  </object>
-                  </video> 
-            </div>
-
-            <div class="col-3 bloco-texto" style="margin-top: 6em; margin-left: 15px;">
-              <video width="320" height="240" controls="controls">
-                <source src="video/video2.mp4" type="video/mp4">
-                <object data="" width="320" height="240">
-                <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
-                </object>
-                </video> 
-            </div>
-            <div class="col-3 bloco-texto" style="margin-left: 15px;">
-              <video width="320" height="240" controls="controls" autoplay="autoplay">
-                <source src="video/video3.mp4" type="video/mp4">
-                <object data="" width="320" height="240">
-                <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
-                </object>
-                </video> 
-            </div>
-        </div>
-      </div>
-    <div class="col-100 bloco-imagens-texto" style="margin-left: 50px; ">
-        <div class="content" style="margin-left: 10%; float: left;">
-
-            <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img2.jpg">
-              <p><b>Manutenção de comandos eletricos</b></p>
-              <p> Profissionais na área de instalações de todos 
-                 os tipos de comandos resideêcial e profissionais             
-              </p>
-          </div>
-          <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img3.jfif">
-              <p><b>Instações e manutenções em quadros elétricos</b></p>
-              <p> Ótimos profisionais especializados em manutenções e instalações
-                 de quadros de varios tamanhos.
-              </p>
-          </div>
-          <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img1.jpg">
-              <p><b>Instalações de  lustres e ventiladores</b></p>
-              <p>profissionais expecializados na área de instalações de ventiladores  e lustres de todos os modelos em
-                 residencias particulares e ambientes profissionais 
-              
-              </p>
-              
-          </div>
-              </div>
-                   </div>
-
-        <div class="col-100 bloco-imagens-texto" style="margin-left: 50px; "><br> <br>
-      
-
-          <div class="content" style="margin-left: 10%; float: left;">
-            <h3 style="margin-left: 400px;">Galeria de fotos</h3>
-            <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img9.jpg">
-             
-          </div>
-          <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img8.jpg">
-          </div>
-          <div class="col-3 bloco-texto bloco-imagem">
-              <img src="./img/img10.jpg">
-            
-              
-          </div>
-              </div>
-
-              <div class="content" style="margin-left: 10%; float: left;">
-
-                <div class="col-3 bloco-texto bloco-imagem">
-                  <img src="./img/img11.jpg">
-                 
-              </div>
-              <div class="col-3 bloco-texto bloco-imagem">
-                  <img src="./img/img12.jpg">
-              </div>
-              <div class="col-3 bloco-texto bloco-imagem">
-                  <img src="./img/img14.jpg">
-                
-                  
-              </div>
-              <a href="galeria_fotos.html" style="margin-left: 900px;">Mais fotos</a>
-                  </div><br>
-    
-
-
-        </div>
-        <a  class="watsapp-link" href="https://web.whatsapp.com/send/?phone=551498809-1366" target="_blank">
-          <i class="fa fa-whatsapp"></i>
-          </a>
-        <footer>
-          <div class="col-100 footer">
-            <img src="img/logo.png" height="90">
-            
-              <div class="content" style="width: 1000px;">
-               
-                <div class="col-4">
-                  <h3><b>Contato</b></h3>
-                  <p> Fone: (14) 98809-1366</p>
-                  <p> email: jonatan@bucem.org</p> 
-                </div>
-               
-                  <div class="col-4">
-                      <h3><b>Endereço</b></h3>
-                      <p> Rua: Alberto Joaquin, nº 1000.</p>
-                      <p> Bairro: Nova Marília.</p>
-                      <p class="local">Marília-SP<p>               
-                  </div>
-                  <div class="col-4">
-                    <a href="http://www.google.com.br"> Avalie nossos serviços</a>
-                  </div>
-
-                 
-                
-              </div>
-          </div>
-      </footer>
-
-      
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
 
-  
-    
-    </body>
+<h1 class="text-center a">Prestadora de servicos</h1>
+<p class="text-center"><strong>Disponibilizamos de uma equipe especializada no serviço da elétrica. Contamos com profissionais competente em todos os tipos de serviços de elétrica.</strong></p>
 
+<h3 class="text-center text-primary"><strong>Agende um orçamento sem compromisso!</strong></h3>
+<h4 class="text-center"><strong>Videos</strong></h4>
+<div class="container  shadow p-3 mb-5 bg-white rounded" >
+  <div class="row" >
+    <div class="col" >
+      <video width="320" height="240" controls>
+      <source src="video/video1.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+    </div>
+    <div class="col">
+      <video width="320" height="240" controls>
+      <source src="video/video2.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+    </div>
+    <div class="col">
+     <video width="320" height="240" controls>
+  <source src="video/video4.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+    </div>
+  </div>
+</div>
+<div class="container  shadow p-3 mb-5 bg-white rounded" >
+<div class="row"style="margin-top:10px; margin-left:30px;" >
+<div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="img/img2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Comando elétrico</strong></h5>
+      <p class="card-text">Somos especialista em instalações de comandos elétricos, em residencias , industrias, obras  de pequeno à grande porte.</p>
+    </div>
+  </div>
+   </div>
+   <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="img/img13.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Quadros elétricos</strong></h5>
+        <p class="card-text">Montamos quadros eletricos de todos os tamanhos e formatos e realizamos manutenção.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="img/img1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Ventiladores</strong></h5>
+      <p class="card-text">Instalamos todos tipos de ventiladores, de todas as marcas e estilos.</p>
+    </div>
+  </div>
+</div>
+</div>
+     </div>
+     <br><br>
+     <h5 class="text-center"> <strong>Fotos em destaque</strong></h5>
+
+
+     <div class="container shadow p-3 mb-5 bg-white rounded" >
+      <div class="row"style="margin-top:6px; margin-left: 25px" >
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/img12.jpg" class="card-img-top" alt="...">
+         
+        </div>
+         </div>
+         <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/img14.jpg" class="card-img-top" alt="...">
+           
+          </div>
+        </div>
+        <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/img11.jpg" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/img9.jpg" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/img8.jpg" class="card-img-top" alt="...">
+        
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/img10.jpg" class="card-img-top" alt="...">
+         
+        </div>
+       
+      </div>
+      
+      </div>
+      <a style="margin-left:990px" href="fotos.html">Mais fotos</a>
+    </div>
+
+    <!----Roda-pé---->
+
+<footer class=" navbar" style="width: 1350px;">
+  <div class="bg-dark" style="width: 1365px; height: 240px;">
+    <diV class="row" >
+      <diV class="col" style="margin-top: 50px;">
+<img src="img/logo.png" height="110">
+</diV>
+<diV class="col" style="margin-top: 50px;">
+ <ul>
+<li><strong>Contato</strong></li>
+<li>Celular (14) 98809-1366. </li>
+<li>E-mail: jonatan@lucem.org. </li><br>
+<br>
+<a href="http://www.google.com"><img class="estrela" src="img/estrela.png" height="20" style="margin-left:60px;"></a><p class="text-light">Avalie nossos serviços</p>
+ </ul>
+  </diV>
+  <diV class="col"style="margin-top: 50px;">
+    <ul>
+      <li><strong>Endereço</strong></li>
+      <li>Rua: Samuel de Almeida nº 606.  </li>
+      <li>Bairro: Santa Clara. </li>
+      <li>Cidade: Marília-SP. </li>
+      <li>Estado: São Paulo. </li>
+       </ul> 
+</diV>
+  </div>
+</footer>
+<a  class="watsapp-link" href="https://web.whatsapp.com/send/?phone=551498809-1366" target="_blank">
+  <i class="fa fa-whatsapp"></i>
+  </a>
+</body>
 </html>

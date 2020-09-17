@@ -1,0 +1,63 @@
+h1 {color: blue;
+}
+
+h1.a {color:blue; 
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+li{
+
+  text-decoration: none;
+  color: #ffffff;
+  list-style-type: none;
+}
+footer{
+  font-family: "Times New Roman", Times, serif;
+}
+
+.watsapp-link{
+position:fixed;
+width: 60px;
+height: 60px;
+bottom: 40px;
+right: 40px;
+background-color: #25d366;
+color:#fff;
+border-radius:50px;
+text-align: center;
+font-size: 30px;
+box-shadow:1px 10x 2px #888;
+z-index:1000;
+
+}
+
+.fa-whatsapp{
+margin-top: 16px;
+
+}
+.estrela:hover{
+            width: 40px!important;
+            height: 40px!important;
+            position: relative!important;
+
+           }
+           .logo:hover{
+            width: 220px!important;
+            height: 90px!important;
+            position: relative!important;
+
+           }
+
+           .face:hover{
+            width: 40px!important;
+            height: 40px!important;
+            position: relative!important;
+
+           }
+
+           .inst:hover{
+            width: 60px!important;
+            height: 33px!important;
+            position: relative!important;
+
+           }
